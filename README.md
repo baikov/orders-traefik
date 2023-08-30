@@ -6,11 +6,6 @@ Other parts:
 2. [Nuxt 3 production-ready template in Docker (SPA/SSR)](https://github.com/baikov/tpl-nuxt3)
 3. [Django/DRF backend in Docker (based on django-cookiecutter)](https://github.com/baikov/drf-tpl)
 
-## Improvement plan
-
-- [ ] Add log rotation
-- [ ] Integrate [Socket-Proxy](https://medium.com/@containeroo/traefik-2-0-paranoid-about-mounting-var-run-docker-sock-22da9cb3e78c) for security reason
-
 ## Global reverse-proxy for local development
 
 > Creates an external network `dev-proxy` to which frontend and backend containers are connected.
@@ -91,6 +86,3 @@ Traefik dashboard is available at: https://tr.tpl.local/dashboard/#/
 
 Traefik dashboard is available at: https://tr.your_domain.com/dashboard/#/
 
-## Contributing
-
-I made this template for myself, but it's awesom if it helps someone else. The settings are far from ideal, so fell free to make a pull request.
